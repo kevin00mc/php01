@@ -8,16 +8,12 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<h2><a href = "https://three-js-product-v891.vercel.app/">MIL ペット派閥　アンケートフォーム</a></h2>
-
 <!-- partial:index.partial.html -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r74/three.min.js"></script>
 <div class="wrapper"></div>
 <!-- partial -->
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
-    <!-- <h1>MIL ペット派閥　アンケートフォーム</h1> -->
-
-
+    <h1>MIL ペット派閥　アンケートフォーム</h1>
     <form method="post" action="write.php">
         <p>お名前：<input type="text" name="name" size="20" required></p>
         <p>ペットを飼うなら？：<select name="pet" type="text" required>
